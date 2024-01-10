@@ -5,42 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
 </head>
 
 <body>
     <header>
-        <h1>ToDo</h1>
-        <img src="./images/todo.jpg" alt="">
-        <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./AboutPage.html">About Us</a></li>
-        </ul>
-    </nav>
-        <h3> Be organized ,</h3>
-        <h3>YOUR LIFE WILL START NOW </h3>
+        <div class="n1">
+            <img class="logo2" src="./images/todo.jpg" alt="">
+            <h1 class="logo1">ToDo</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./AboutPage.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="h3">
+            <h3> Be organized ,</h3>
+            <h3>YOUR LIFE WILL START NOW </h3>
+        </div>
     </header>
-    <main>
-        <h1> ToDo List</h1>
-        <table>
+    <main class="main">
+        <h1 class="h1"> ToDo List</h1>
+        <table class="t1">
             <tr>
                 <th>My Tasks</th>
-                <th>The status of my task</th> 
+                <th>The status of my task</th>
             </tr>
             <tr>
-                <td>Attending the lecture</td>    <td><input type="checkbox"></td>
+                <td>Attending the lecture <input type="checkbox" checked></td>
+                <td class="rec1"></td>
             </tr>
             <tr>
-                <td>Attending the lab</td>        <td><input type="checkbox"></td>
-            </tr>
+                <td>Attending the lab <input type="checkbox"></td>
+                <td class="rec2"></td>
             <tr>
-                <td>Submitting my assignment</td>   <td><input type="checkbox"></td>
+                <td>Submitting my assignment <input type="checkbox"></td>
+                <td class="rec3"></td>
             </tr>
 
         </table>
     </main>
-    <footer>
-        &copy;<p>Download App</p> <p>Contact us</p>
+    <footer class="footer">
+        <ul>
+      <li>  &copy;  </li>
+      <li> Download App</li>
+      <li> Contact us</li>
+        </ul>
     </footer>
 </body>
 
