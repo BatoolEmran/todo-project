@@ -1,0 +1,83 @@
+.logo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: rgb(21, 0, 255);
+}
+
+.logo2 {
+    width: 70px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.n1 li {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top:0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: black;
+}
+
+.n1 {
+    background-color: gray;
+}
+
+.main {
+    min-height:55vh;
+
+}
+
+
+.h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: red;
+    text-align: center;
+    padding-right: 400px;
+}
+
+.p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 900;
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    color: black;
+    text-align: center;
+    margin-left: 550px;
+}
+
+.img1 {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-left: 250px;
+    padding-top: 40px;
+}
+
+.s2 {
+    text-align: center;
+}
+
+.d1{
+display:contents;
+}
+
+
+.footer li {
+    display: inline-block;
+    margin-left: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    text-align: center;
+    position: sticky;
+    margin-bottom:10px;
+}
+
+.footer {
+    background-color: grey;
+}
